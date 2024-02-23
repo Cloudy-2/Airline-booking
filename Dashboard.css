@@ -1,0 +1,89 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-image: url("image/DASHBOARD.jpg");
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+background-size: cover; /* Ensure the background image covers the entire viewport */
+background-repeat: no-repeat; /* Prevent the background image from repeating */
+background-position: center; /* Center the background image */
+background-attachment: fixed; /* Fix the background image */
+margin: 0;
+}
+
+header {
+   
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffbb33;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dashboard-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.dashboard-section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+footer {
+    
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}

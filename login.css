@@ -1,0 +1,116 @@
+body {
+  background-image: url(image/Sign.jpg);
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-size: cover; /* Ensure the background image covers the entire viewport */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Fix the background image */
+  margin: 0;
+  
+}
+
+header {
+  height: 50px;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3s);
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+}
+
+header h1 {
+  display: block;
+  color: white;
+  font-size: 50px;
+  height: 30px;
+  font-style: italic;
+}
+
+header p {
+  color: white;
+  font-size: 16px;
+  height: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* CSS for List */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  margin: 180px;
+}
+
+.login-container {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3s);
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 50px;
+  width: 400px;
+  margin: 10px auto;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+.login-container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  opacity: 1;
+}
+
+.login-container input[type="submit"]:hover {
+  background-color: green;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3s);
+  background-color: rgba(255, 255, 255, 0);
+}
